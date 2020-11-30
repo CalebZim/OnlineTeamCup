@@ -72,7 +72,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    @cdzim is the owner of the club, and makes sure things get done. He is currently playing on Team Libra in CSL, which is currently in the semi-finals.
+                    @cdzim is the owner of the club, and makes sure things get done. He played on Team Libra for season 2 in CSL.
                       </p>
                 </div>
               </div>
