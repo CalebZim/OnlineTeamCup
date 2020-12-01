@@ -3,6 +3,7 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import './App.css'
+import './assets/Tachyons.css'
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -14,6 +15,8 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
+import RuleBook from './views/Rule-Book'
+import Register from './views/Register'
 
 
 const App = () => {
@@ -36,7 +39,8 @@ const App = () => {
       children={() => (
           <Switch>
             <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-            <AppRoute exact path="/league-rule-book" component={Home} layout={LayoutDefault} />
+            <AppRoute exact path="/league-rule-book" component={RuleBook} layout={LayoutDefault} />
+            <AppRoute exact path="/register" component={Register} />
           </Switch>
       )} />
   );

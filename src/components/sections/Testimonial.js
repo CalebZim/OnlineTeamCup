@@ -62,7 +62,9 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                   @neatgreatfire is one of the SuperAdmins. He has played on many teams in leagues, including NSPBCL, for the Chessical PROdigies. His team made it to the quarter finals, but lost.
+                   @neatgreatfire is one of the SuperAdmins. 
+                   He has played on many teams in leagues, including NSPBCL, for the Chessical PROdigies. 
+                   His team made it to the quarter finals, but lost.
                       </p>
                 </div>
               </div>
@@ -72,7 +74,8 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    @cdzim is the owner of the club, and makes sure things get done. He played on Team Libra for season 2 in CSL.
+                    @cdzim is the owner of the club, and makes sure things get done. 
+                    He played on Team Libra for season 2 in CSL. The team made it to the semi finals.
                       </p>
                 </div>
               </div>
@@ -82,7 +85,10 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    @10thbutter is currently an admin in training.
+                  @10thButter is one of the admins. 
+                  He does chess as a hobby on many different chess websites.
+                   He started 1.5 years ago. He hasn't played in any teams in leagues just yet. 
+                   He creates live matches and vote chess games.
                       </p>
                 </div>
 
@@ -93,7 +99,9 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    @miniongolf is currently an admin in training.
+                  @Miniongolf is one of the admins for Online Team Cup. 
+                  He is relatively new to chess (having actually practiced for only a year) but is working to improve
+                  . He strives to be nice and include everyone in a positive environment.
                       </p>
                 </div>
               </div>

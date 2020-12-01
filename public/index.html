@@ -9,6 +9,18 @@
     <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="logo192.png" />
 
+<!-- Hotjar Tracking Code for https://onlineteamcup.herokuapp.com/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2130308,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
@@ -33,6 +45,30 @@
 <body class="has-animations">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" class="body-wrap"></div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBg84YDHR-b5CsqPpTx-z6rAR1BI2OzsBg",
+    authDomain: "onlineteamcup.firebaseapp.com",
+    databaseURL: "https://onlineteamcup.firebaseio.com",
+    projectId: "onlineteamcup",
+    storageBucket: "onlineteamcup.appspot.com",
+    messagingSenderId: "917421074065",
+    appId: "1:917421074065:web:02078c3706ba9e95f38130",
+    measurementId: "G-HXH8CGSQWH"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 
 </html>

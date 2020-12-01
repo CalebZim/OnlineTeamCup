@@ -97,7 +97,7 @@ const FeaturesTiles = ({
                     Live Team Matches
                     </h4>
                   <p className="m-0 text-sm">
-                    We have live team matches. A live team match is when another club is challenged and can play againt that club. 
+                    We have live team matches. A live team match is when another club is challenged and can play against that club. 
                     </p>
                 </div>
               </div>

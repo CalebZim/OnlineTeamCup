@@ -61,7 +61,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                We are a chess.com club that has alot of vote chess and a league.
+                We are a chess.com club that has vote chess, tournaments, and a league.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
