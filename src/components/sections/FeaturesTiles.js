@@ -74,8 +74,8 @@ const FeaturesTiles = ({
                    Vote Chess
                     </h4>
                   <p className="m-0 text-sm">
-                    Vote chess were there are two teams and each person on that team votes for the move he/she would play. 
-                    The majority votes is the move that will be played.
+                  Vote chess is where there are two teams and each person on that team votes for the move he/she would play.
+                   You should also talk about moves beforehand, and not vote until almost everyone has agreed on a move. The majority votes is the move that will be played.
                     </p>
                 </div>
               </div>

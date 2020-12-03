@@ -38,7 +38,7 @@ const Footer = ({
           )}>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             
-            <div className="footer-copyright">Made by <a href="https://www.chess.com/member/cdzim" target='blank'>@cdzim</a>. All right reserved</div>
+            <div className="footer-copyright">Made by <a href="https://www.chess.com/member/cdzim" target='blank'>@cdzim</a>. All right reserved Version 1.2</div>
           </div>
         </div>
       </div>
